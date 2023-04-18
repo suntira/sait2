@@ -25,11 +25,9 @@ line-height: 150%;
     font-size: 16px;
     --main-header: #323232;
     --pink-color:#CC4C6E;
-    --dark-blue:#142850;
-    --secondary-color:#00A8CC;
-    --bg-lightblue: #edf7fa;
-    --border-grey: #e0e0e0;
-    --grey-color: #8695a4;
+    --pink-sell:#FF3465;
+    --dark-grey:#5C5C66;
+    --grey-color: #BCBCBC;
 }
 .container{
     width: 1676px;
@@ -193,4 +191,179 @@ font-family: 'Bebas Neue';
 font-weight: 400;
 font-size: 1.125rem;
 
+}
+.new-block{
+    margin-top: 64px;
+    height: 575px;
+}
+.new-block-header{
+    display: flex;
+    justify-content: space-between;
+}
+.new-block-header h3{
+    font-family: 'Open Sans';
+font-weight: 400;
+font-size: 1.75rem;
+
+}
+.img-str{
+    width: 20px;
+    height: 10px;
+   
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.card-product{
+    width: 377px;
+    height: 507px;
+    background: white;
+}
+.sell{
+    background: var(--pink-sell);
+    width: 56px;
+    height: 56px;
+    padding: 21px 14px;
+    color: white;
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 0.75rem;
+}
+.card-product .img1{
+  margin: 19px 41.5px 0 41.5px;
+}
+.card-product .img2{
+    margin: 75px 41.5px 0 41.5px;
+  }
+.card-product-d{
+    display: flex;
+}
+.card-product h3{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 99px;
+    margin-left: 25px;
+}
+.card-product-d {
+    margin-top: 10.85px;
+}
+.card-product-d .p1{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--dark-grey);
+    margin-left: 25px;
+}
+.card-product-d .p2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 29px;
+}
+.card-product-d .p3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--grey-color);
+    margin-left: 8px;
+   margin-top: 2px;
+}
+.sell-block{
+margin-top: 25px;
+min-height: 637PX;
+}
+.sell-block-header{
+    margin-left: 214px;
+    display: flex;
+    justify-content: space-between;
+}
+.sell-block-header h3{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 1.75rem;
+}
+.sell-block-content{
+    display: flex;
+    margin-top: 31px;
+    justify-content: space-between;
+}
+.sell-card{
+width:990px;
+height:570px;
+
+}
+.sell-card img{
+    width: 990px;
+height: 482px;
+    }
+.sell-card h2{
+    margin: -31px 0 0 32px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 3rem;
+}
+.sell-card p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: 
+    #969696;
+    margin-top: 4px;   
+}
+.rek-block{
+    margin-top: 59px;
+    min-height: 519px;
+}
+.rek-block-header{
+    display: flex;
+    justify-content: space-between;
+}
+.rek-block-header h3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+.reclama-block{
+margin-top: 125px;
+min-height: 453px;
+display: flex;
+
+}
+.reclama-block-rhight{
+margin-left: 59px;
+padding: 63px 0 0 0 ;
+}
+.reclama-block-rhight h1{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 110%;
+}
+.reclama-block-rhight h3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.375rem;
+}
+.h3-1{
+margin-top: 15px;
+color: #5A5A5A;
+}
+.h3-2{
+    margin-top: 17px;
+    color: #9A9A9A;
+}
+.reclama-block-rhight img{
+ margin-top: 8px;}
+.button2{
+margin-top: 30px;
+width: 530px;
+height: 64px;
+}
+footer{
+    margin-top: 128px;
+    height: 601px;
 }
