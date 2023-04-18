@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Roboto:wght@400;700&family=Rubik:wght@400;500&display=swap');
+  /*Font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+button {
+    font-family: 'Bebas Neue';
+font-weight: 400;
+font-size: 1.125rem;
+border: none;
+outline: none;
+display: inline-block;
+text-align: center;
+text-decoration: none;
+color: white;
+background: black;
+line-height: 150%;
+}
+:root {
+    font-size: 16px;
+    --main-header: #323232;
+    --pink-color:#CC4C6E;
+    --dark-blue:#142850;
+    --secondary-color:#00A8CC;
+    --bg-lightblue: #edf7fa;
+    --border-grey: #e0e0e0;
+    --grey-color: #8695a4;
+}
+.container{
+    width: 1676px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.main-block.{
+    height: 698px;
+}
+header{
+    height: 136px;
+}
+
+.navigation{
+    background: var(--main-header);
+    height: 49px;
+}
+.navigation-content{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-gorod{
+    display: flex;
+    margin: 14px 0;
+}
+.navigation-gorod p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.navigation-gorod img{ 
+    Width: 8.01px;
+    Height: 4.95px;
+    margin-left: 18px;
+    margin-top: 9px;
+}
+.navigation-tel{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.375rem;
+    margin: 10px 0;
+}
+.main-menu{
+    height: 87px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 765px;
+    padding: 33px 0 27px 0;
+}
+.main-menu  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+.main-menu-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu-right{
+margin-top: 40px;
+}
+.main-menu-right img{
+   margin-left: 23.5px;
+    }
+.main-menu-left{
+    display: flex;
+}
+.main-menu-left img{
+    height: 38px;
+    width: 124px;
+    margin-right: 48px;
+    margin-top: 32px;
+    }
+    .main-block-content{
+    background-image: url("../img/main-block/fon.png");
+    min-height: 698px;
+    background-size: cover;
+    position: relative;
+}
+.main-block-content-d{
+padding: 90px 0 0 121px;
+}
+.main-block-content-d h1{
+    font-family: 'Rubik';
+font-size: 6.2rem;
+font-weight: 500;
+}
+.main-block-content-d h3{
+    font-family: 'Rubik';
+font-weight: 400;
+font-size: 1.5rem;
+}
+.main-block-content-d .button1{
+    width: 268px;
+    height: 58px;
+    margin-top: 45px;
+}
+.line { width: 68px;
+    height: 2px;
+    background-color: black;
+    margin-top: 66px;
+    margin-left: -765px;
+}
+.about-block{
+    margin-top: 68px;
+    height: 480px;
+
+}
+.about-block-content{
+    display: flex;
+}
+.about-block-content-right{
+margin-left: 72px;
+}
+.about-block-content-right h2{
+    font-family: 'Roboto';
+    line-height: 130%;
+font-weight: 400;
+font-size: 2rem;
+    }
+.about-block-content-right p{
+        font-family: 'Roboto';
+        font-weight: 400;
+    font-size: 1rem;
+        }
+ .about-block-content-right .p1{
+            margin-top: 12px;
+            line-height: 150%;
+             }
+.about-block-content-right .p2{
+           color: var(--pink-color);
+           margin-top: 22px;
+            }
+.about-block-preim{
+                display: flex;
+                justify-content: space-between;
+                margin: 36px;
+            }
+.about-block-preim-card{
+    width: 400px;
+    height: 87px;
+    padding: 21px 180px 20px 0;
+    background: white;
+
+}
+.about-block-preim-card p{
+font-family: 'Bebas Neue';
+font-weight: 400;
+font-size: 1.125rem;
+
+}
