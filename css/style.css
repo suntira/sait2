@@ -34,7 +34,7 @@ line-height: 150%;
     margin: 0 auto;
     max-width: 100%;
 }
-.main-block.{
+.main-block{
     height: 698px;
 }
 header{
@@ -369,7 +369,7 @@ footer{
 }
 .up{
 display: flex;
-height: ;
+
 }
 .up h3{
     font-size: 1.375rem;
