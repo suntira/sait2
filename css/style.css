@@ -291,6 +291,7 @@ font-size: 1.75rem;
     margin-top: 31px;
     justify-content: center;
     gap: 30px;
+    overflow: hidden;
 }
 .sell-card{
 width:990px;
